@@ -8,7 +8,7 @@ Only Loader
 The only loader you'll need to load scripts.
 
 #### Usage
-It's damn easy to use:
+It's super easy to use:
 ```javascript
 Loader(scripts, async);
 ```
@@ -25,8 +25,8 @@ Loader(['a.js', 'b.js', function() {
 }, 'c.js', 'd.js']); // Load a and b, then execute the function, then load c and d
 ```
 
-Just try it!
-
+#### Misc
+When loading a script not exists, it won't block the function from being loaded
 
 #### Development
 ```bash
