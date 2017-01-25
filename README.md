@@ -26,7 +26,9 @@ Loader(['a.js', 'b.js', function() {
 ```
 
 #### Misc
-When loading a script not exists, it won't block the function from being loaded
+- When loading a script not exists, it won't block the function from being loaded.
+- You can embed loader inside loader
+
 
 #### Development
 ```bash
